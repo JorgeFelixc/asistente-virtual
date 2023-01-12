@@ -6,7 +6,8 @@ import { MantineProvider, MantineThemeOverride } from "@mantine/core";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { currentRoutes } from "./config/routes";
 
-
+import "./index.css";
+import "./app.css";
 
 const route = createBrowserRouter(currentRoutes);
 
