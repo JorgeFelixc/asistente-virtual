@@ -1,13 +1,12 @@
 import React from "react";
-import App from "./App";
 import ReactDOM from "react-dom/client";
 
 import { MantineProvider, MantineThemeOverride } from "@mantine/core";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { currentRoutes } from "./config/routes";
 
-import "index.css";
-import "app.css";
+import "./app.css";
+import "./index.css";
 
 const route = createBrowserRouter(currentRoutes);
 
